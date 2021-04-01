@@ -3,7 +3,7 @@
     "line": 4,
     "elements": [
       {
-        "start_timestamp": "2021-04-01T20:48:50.496Z",
+        "start_timestamp": "2021-04-01T21:36:14.598Z",
         "line": 6,
         "name": "Realizar login",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3029828500,
+              "duration": 2601825800,
               "status": "passed"
             },
             "line": 7,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 98368400,
+              "duration": 84962900,
               "status": "passed"
             },
             "line": 8,
@@ -37,7 +37,7 @@
           },
           {
             "result": {
-              "duration": 35742400,
+              "duration": 910349600,
               "status": "passed"
             },
             "line": 9,
