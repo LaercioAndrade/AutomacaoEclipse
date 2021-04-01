@@ -1,0 +1,60 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-01T20:48:50.496Z",
+        "line": 6,
+        "name": "Realizar login",
+        "description": "",
+        "id": "realizar-login-no-site;realizar-login",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3029828500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "que preencho os dados corretos",
+            "match": {
+              "location": "LoginSteps.quePreenchoOsDadosCorretos()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 98368400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clico no botao login",
+            "match": {
+              "location": "LoginSteps.clico_no_botao_login()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 35742400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "valido se o login e realizado com sucesso",
+            "match": {
+              "location": "LoginSteps.validoSeOLoginERealizadoComSucesso()"
+            },
+            "keyword": "Entao "
+          }
+        ]
+      }
+    ],
+    "name": "Realizar Login no site",
+    "description": "",
+    "id": "realizar-login-no-site",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": []
+  }
+]
